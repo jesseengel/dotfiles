@@ -1,0 +1,19 @@
+{
+	"color_scheme": "Packages/Oasis Theme/Oasis.tmTheme",
+	"extensions":
+	[
+		"cpp",
+		"cc",
+		"cxx",
+		"c++",
+		"hpp",
+		"hxx",
+		"h++",
+		"inl",
+		"ipp",
+		"h",
+		"cu",
+		"h",
+		"h"
+	]
+}

@@ -1,0 +1,8 @@
+.DS_Store
+._*
+*.netrwhist
+*.last-run
+*.ca-list
+*ca-bundle*
+*.cache
+*.ca-certs

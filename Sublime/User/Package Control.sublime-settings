@@ -1,0 +1,43 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Base16 Color Schemes",
+		"C++ Starting Kit",
+		"Case Conversion",
+		"ChannelRepositoryTools",
+		"CodeCells",
+		"CTags",
+		"CUDA C++",
+		"FindKeyConflicts",
+		"FuzzyFileNav",
+		"GitGutter",
+		"GitHub Flavored Markdown Preview",
+		"GitLink",
+		"google-Blaze",
+		"google-buildifier",
+		"google-cs",
+		"google-format",
+		"google-g4",
+		"google-g4-lint-free",
+		"google-syntax",
+		"GoogleG3",
+		"Markdown Extended",
+		"Oasis Theme",
+		"Package Control",
+		"Protobuf Syntax Hightlighting",
+		"SideBarEnhancements",
+		"SublimeLinter-cpplint",
+		"Theme - Spacegray",
+		"TrailingSpaces",
+		"Vintageous",
+		"Whitespace"
+	],
+	"repositories":
+	[
+		"https://sublime-text-plugins.corp.google.com/google-packages.json"
+	]
+}

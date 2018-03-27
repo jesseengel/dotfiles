@@ -1,0 +1,10 @@
+    [
+        { "keys": ["ctrl+super+shift+alt+c"], "command":"exec", "args": {"kill": true}},
+        { "keys": ["j", "j"], "command": "_enter_normal_mode", "args": {"mode": "mode_insert"}, "context": [{"key": "vi_insert_mode_aware"}] },
+        { "keys": ["super+o"], "command": "fuzzy_start_from_file" },
+        { "keys": ["super+shift+o"], "command": "fuzzy_bookmarks_load" },
+        { "keys": ["shift+enter"], "command": "execute_cell" },
+        { "keys": ["alt+down"], "command": "move_down_cell" },
+  	    { "keys": ["alt+up"], "command": "move_up_cell" },
+  	    { "keys": ["super+shift+/"], "command": "insert_cell_divider" },
+      ]
