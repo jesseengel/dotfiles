@@ -1,5 +1,19 @@
-"""Pathogen Lines
-execute pathogen#infect()
+call plug#begin('~/.vim/plugged')
+" Make sure you use single quotes
+Plug 'majutsushi/tagbar'
+Plug 'bling/vim-airline'
+Plug 'altercation/vim-colors-solarized'
+Plug 'scrooloose/nerdtree'
+Plug 'ctrlpvim/ctrlp.vim'
+Plug 'FelikZ/ctrlp-py-matcher'
+Plug 'tacahiroy/ctrlp-funky'
+Plug 'mbbill/undotree'
+Plug 'chriskempson/base16-vim'
+Plug 'reedes/vim-thematic'
+Plug 'scrooloose/nerdcommenter'
+
+" Initialize plugin system
+call plug#end()
 
 """VIM
 set nocompatible          " get rid of Vi compatibility mode. SET FIRST!
@@ -353,10 +367,8 @@ vmap <C-c> y:call SendViaOSC52(getreg('"'))<cr>
 
 ""`" Use the 'google' package by default (see http://go/vim/packages).
 """source /usr/share/vim/google/google.vim
-if $HOST == $GOOG_WORKSTATION
-    source ~/.vimrc_google
-    Glug g4
-endif
+source ~/.vimrc_google
+Glug g4
 
 
 
